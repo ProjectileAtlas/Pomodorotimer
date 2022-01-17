@@ -852,7 +852,7 @@ Ensure the default browser behavior of the `hidden` attribute.
     .pomo {
         font-size: 1rem !important;
     }
-    .Home {
+    .home {
         transform: translateX(-2rem);
         font-size: small;
     }
