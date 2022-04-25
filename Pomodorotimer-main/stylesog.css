@@ -888,7 +888,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 .background-main {
   width: 100%;
   height: 100vh;
-  background-color: #990000;
+  background-color: #ea5252;
   background-repeat: repeat;
 }
 .Download {
@@ -905,18 +905,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   align-self: center;
   width: 40rem;
   height: 20rem;
-  background-color: rgb(226, 217, 217);
+  background-color: #ff8080;
   opacity: 100%;
   text-align: center;
   line-height: 20rem;
   font-size: 8rem;
   font-weight: bold;
-  border: 2px solid rgb(4, 4, 4);
+  -webkit-text-stroke: 2px white;
   border-radius: 1rem;
   color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 .start-button {
-  background-color: #e5e7eb;
+  background-color: #ffffff;
   width: 12.5rem;
   height: 5rem;
   justify-self: flex-start;
@@ -925,7 +926,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 1rem;
   text-align: center;
   line-height: 5rem;
-  margin-left: 3rem;
+  margin-left: 3.5rem;
+  font-size: 25px;
+  font-weight: bold;
 }
 .start-button:hover {
   background-color: rgb(211, 211, 211);
@@ -962,7 +965,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   content: "";
   position: absolute;
   display: block;
-  width: 68%;
+  width: 50%;
   height: 2px;
   background-color: rgb(230, 65, 65);
 }
@@ -1021,7 +1024,7 @@ body {
   }
 }
 .stop-button {
-  background-color: #e5e7eb;
+  background-color: #ffffff;
   width: 12.5rem;
   height: 5rem;
   justify-self: flex-start;
@@ -1031,6 +1034,8 @@ body {
   text-align: center;
   line-height: 5rem;
   margin-left: 25rem;
+  font-size: 25px;
+  font-weight: bold;
 }
 .stop-button:hover {
   background-color: rgb(211, 211, 211);
